@@ -18,7 +18,10 @@ System.out.println(a.equals(b));//true, aとbの内容（文字列）は同じ
 
 //toString()メソッド
 Double d = 3.14;
-System.out.println(d.toString（）);
+System.out.println(d.toString());
+
+//hashCode()メソッド
+System.out.println(d.hashCode());
 
 }
 
