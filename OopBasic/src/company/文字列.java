@@ -24,12 +24,12 @@ public class 文字列 {
     System.out.println(str.trim()); // "Hello World!"
 
     // formatted()メソッド
-    String name = "Alice";
+    var name = "Alice";
     int age = 25;
     double height = 1.7;
 
-    String formattedString = "Name: %s, Age: %d, Height: %.2f".formatted(name, age, height);
-    System.out.println(formattedString);
+    var formattedvar = "Name: %s, Age: %d, Height: %.2f".formatted(name, age, height);
+    System.out.println(formattedvar);
 
 }
 }
